@@ -36,7 +36,7 @@ export default function LoginPage() {
           <h1 className="text-3xl font-black text-white tracking-widest uppercase">
             Welcome Back
           </h1>
-          <div className="w-16 h-1 bg-yellow-500 mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-#e8b44f mx-auto mt-3"></div>
           <p className="text-gray-500 text-xs tracking-widest uppercase mt-3">
             Sign in to your account
           </p>
@@ -50,7 +50,7 @@ export default function LoginPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
           />
           <input
             type="password"
@@ -58,17 +58,17 @@ export default function LoginPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
           />
           <Link
             href="/forgot-password"
-            className="text-yellow-500 text-xs tracking-widest uppercase text-right hover:text-yellow-400"
+            className="text-#e8b44f text-xs tracking-widest uppercase text-right hover:text-#f3c760"
           >
             Forgot Password?
           </Link>
           <button
             type="submit"
-            className="bg-yellow-500 text-black font-black tracking-widest uppercase py-4 hover:bg-yellow-400 transition"
+            className="bg-#e8b44f text-black font-black tracking-widest uppercase py-4 hover:bg-#f3c760 transition"
           >
             {loading ? "Signing In..." : "Sign In"}
           </button>
@@ -77,10 +77,7 @@ export default function LoginPage() {
         {/* Sign up link */}
         <p className="text-center text-gray-500 text-xs tracking-widest uppercase mt-6">
           Don't have an account?{" "}
-          <Link
-            href="/signup"
-            className="text-yellow-500 hover:text-yellow-400"
-          >
+          <Link href="/signup" className="text-#e8b44f hover:text-#f3c760">
             Sign Up
           </Link>
         </p>

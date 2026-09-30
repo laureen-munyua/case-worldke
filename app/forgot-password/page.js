@@ -33,7 +33,7 @@ export default function ForgotPasswordPage() {
           <h1 className="text-3xl font-black text-white tracking-widest uppercase">
             Reset Password
           </h1>
-          <div className="w-16 h-1 bg-yellow-500 mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-#e8b44f mx-auto mt-3"></div>
           <p className="text-gray-500 text-xs tracking-widest uppercase mt-3">
             Enter your email to reset
           </p>
@@ -41,12 +41,12 @@ export default function ForgotPasswordPage() {
 
         {sent ? (
           <div className="text-center">
-            <p className="text-yellow-500 tracking-widest uppercase text-sm mb-6">
+            <p className="text-#e8b44f tracking-widest uppercase text-sm mb-6">
               ✓ Password reset link sent to your email!
             </p>
             <Link
               href="/login"
-              className="text-gray-500 text-xs tracking-widest uppercase hover:text-yellow-500"
+              className="text-gray-500 text-xs tracking-widest uppercase hover:text-#e8b44f"
             >
               Back to Login
             </Link>
@@ -59,17 +59,17 @@ export default function ForgotPasswordPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+              className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
             />
             <button
               type="submit"
-              className="bg-yellow-500 text-black font-black tracking-widest uppercase py-4 hover:bg-yellow-400 transition"
+              className="bg-#e8b44f text-black font-black tracking-widest uppercase py-4 hover:bg-#f3c760 transition"
             >
               {loading ? "Sending..." : "Send Reset Link"}
             </button>
             <Link
               href="/login"
-              className="text-center text-gray-500 text-xs tracking-widest uppercase hover:text-yellow-500"
+              className="text-center text-gray-500 text-xs tracking-widest uppercase hover:text-#e8b44f"
             >
               Back to Login
             </Link>

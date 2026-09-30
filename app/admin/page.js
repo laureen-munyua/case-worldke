@@ -63,13 +63,13 @@ export default function AdminPage() {
 
   return (
     <div className="min-h-screen bg-black px-6 py-10">
-      <h1 className="text-3xl font-black text-yellow-500 tracking-widest uppercase mb-2">
+      <h1 className="text-3xl font-black text-#e8b44f tracking-widest uppercase mb-2">
         Admin Panel
       </h1>
-      <div className="w-24 h-1 bg-yellow-500 mb-10"></div>
+      <div className="w-24 h-1 bg-#e8b44f mb-10"></div>
 
       {/* Add Case Form */}
-      <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 mb-12">
+      <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 mb-12">
         <h2 className="text-white font-bold tracking-widest uppercase mb-6">
           Add New Case
         </h2>
@@ -80,7 +80,7 @@ export default function AdminPage() {
             onChange={handleChange}
             placeholder="Case Name"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <input
             name="brand"
@@ -88,7 +88,7 @@ export default function AdminPage() {
             onChange={handleChange}
             placeholder="Phone Brand (e.g. iPhone 15 Pro)"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <input
             name="price"
@@ -97,7 +97,7 @@ export default function AdminPage() {
             placeholder="Price (KES)"
             type="number"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <input
             name="material"
@@ -105,7 +105,7 @@ export default function AdminPage() {
             onChange={handleChange}
             placeholder="Material (e.g. Leather)"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <input
             name="color"
@@ -113,7 +113,7 @@ export default function AdminPage() {
             onChange={handleChange}
             placeholder="Color (e.g. Black & Gold)"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <input
             name="image"
@@ -121,11 +121,11 @@ export default function AdminPage() {
             onChange={handleChange}
             placeholder="Image URL"
             required
-            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none"
+            className="bg-black border border-gray-700 text-white p-3 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none"
           />
           <button
             type="submit"
-            className="bg-yellow-500 text-black font-bold tracking-widest uppercase py-3 hover:bg-yellow-400 transition"
+            className="bg-#e8b44f text-black font-bold tracking-widest uppercase py-3 hover:bg-#f3c760 transition"
           >
             Add Case
           </button>
@@ -137,28 +137,28 @@ export default function AdminPage() {
         All Cases
       </h2>
       {loading ? (
-        <p className="text-yellow-500 tracking-widest">Loading...</p>
+        <p className="text-#e8b44f tracking-widest">Loading...</p>
       ) : (
         <div className="overflow-x-auto">
           <table className="w-full text-sm text-left">
-            <thead className="border-b border-yellow-600">
+            <thead className="border-b border-#d49a35">
               <tr>
-                <th className="text-yellow-500 tracking-widest uppercase py-3 pr-4">
+                <th className="text-#e8b44f tracking-widest uppercase py-3 pr-4">
                   Name
                 </th>
-                <th className="text-yellow-500 tracking-widest uppercase py-3 pr-4">
+                <th className="text-#e8b44f tracking-widest uppercase py-3 pr-4">
                   Brand
                 </th>
-                <th className="text-yellow-500 tracking-widest uppercase py-3 pr-4">
+                <th className="text-#e8b44f tracking-widest uppercase py-3 pr-4">
                   Price
                 </th>
-                <th className="text-yellow-500 tracking-widest uppercase py-3 pr-4">
+                <th className="text-#e8b44f tracking-widest uppercase py-3 pr-4">
                   Material
                 </th>
-                <th className="text-yellow-500 tracking-widest uppercase py-3 pr-4">
+                <th className="text-#e8b44f tracking-widest uppercase py-3 pr-4">
                   Color
                 </th>
-                <th className="text-yellow-500 tracking-widest uppercase py-3">
+                <th className="text-#e8b44f tracking-widest uppercase py-3">
                   Action
                 </th>
               </tr>
@@ -171,7 +171,7 @@ export default function AdminPage() {
                 >
                   <td className="text-white py-3 pr-4">{item.name}</td>
                   <td className="text-gray-400 py-3 pr-4">{item.brand}</td>
-                  <td className="text-yellow-500 py-3 pr-4">
+                  <td className="text-#e8b44f py-3 pr-4">
                     KES {item.price.toLocaleString()}
                   </td>
                   <td className="text-gray-400 py-3 pr-4">{item.material}</td>

@@ -8,13 +8,13 @@ export default function RefundPage() {
         <h1 className="text-4xl font-black text-white tracking-widest uppercase">
           Refund Policy
         </h1>
-        <div className="w-16 h-1 bg-yellow-500 mx-auto mt-3"></div>
+        <div className="w-16 h-1 bg-#e8b44f mx-auto mt-3"></div>
       </div>
 
       {/* Content */}
       <div className="max-w-md mx-auto space-y-8">
         <div className="border-b border-gray-800 pb-8">
-          <h2 className="text-yellow-500 font-bold tracking-widest uppercase text-xs mb-3">
+          <h2 className="text-#e8b44f font-bold tracking-widest uppercase text-xs mb-3">
             Returns
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -25,7 +25,7 @@ export default function RefundPage() {
         </div>
 
         <div className="border-b border-gray-800 pb-8">
-          <h2 className="text-yellow-500 font-bold tracking-widest uppercase text-xs mb-3">
+          <h2 className="text-#e8b44f font-bold tracking-widest uppercase text-xs mb-3">
             Refunds
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -36,7 +36,7 @@ export default function RefundPage() {
         </div>
 
         <div className="border-b border-gray-800 pb-8">
-          <h2 className="text-yellow-500 font-bold tracking-widest uppercase text-xs mb-3">
+          <h2 className="text-#e8b44f font-bold tracking-widest uppercase text-xs mb-3">
             Exchanges
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -47,7 +47,7 @@ export default function RefundPage() {
         </div>
 
         <div className="border-b border-gray-800 pb-8">
-          <h2 className="text-yellow-500 font-bold tracking-widest uppercase text-xs mb-3">
+          <h2 className="text-#e8b44f font-bold tracking-widest uppercase text-xs mb-3">
             Non-Returnable Items
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -57,7 +57,7 @@ export default function RefundPage() {
         </div>
 
         <div className="pb-8">
-          <h2 className="text-yellow-500 font-bold tracking-widest uppercase text-xs mb-3">
+          <h2 className="text-#e8b44f font-bold tracking-widest uppercase text-xs mb-3">
             Damaged Items
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -72,7 +72,7 @@ export default function RefundPage() {
           href="https://wa.me/254724673449?text=Hi CaseWorldKE, I would like to initiate a return."
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-center bg-yellow-500 text-black font-black tracking-widest uppercase py-4 hover:bg-yellow-400 transition"
+          className="block text-center bg-#e8b44f text-black font-black tracking-widest uppercase py-4 hover:bg-#f3c760 transition"
         >
           Contact Us For Returns
         </a>

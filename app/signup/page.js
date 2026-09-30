@@ -37,7 +37,7 @@ export default function SignupPage() {
           <h1 className="text-3xl font-black text-white tracking-widest uppercase">
             Create Account
           </h1>
-          <div className="w-16 h-1 bg-yellow-500 mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-#e8b44f mx-auto mt-3"></div>
           <p className="text-gray-500 text-xs tracking-widest uppercase mt-3">
             Join CaseWorldKE today
           </p>
@@ -51,7 +51,7 @@ export default function SignupPage() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
           />
           <input
             type="email"
@@ -59,7 +59,7 @@ export default function SignupPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
           />
           <input
             type="password"
@@ -67,11 +67,11 @@ export default function SignupPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-yellow-500 outline-none tracking-widest"
+            className="bg-gray-900 border border-gray-700 text-white p-4 rounded-md placeholder-gray-600 focus:border-#e8b44f outline-none tracking-widest"
           />
           <button
             type="submit"
-            className="bg-yellow-500 text-black font-black tracking-widest uppercase py-4 hover:bg-yellow-400 transition"
+            className="bg-#e8b44f text-black font-black tracking-widest uppercase py-4 hover:bg-#f3c760 transition"
           >
             {loading ? "Creating Account..." : "Create Account"}
           </button>
@@ -80,7 +80,7 @@ export default function SignupPage() {
         {/* Login link */}
         <p className="text-center text-gray-500 text-xs tracking-widest uppercase mt-6">
           Already have an account?{" "}
-          <Link href="/login" className="text-yellow-500 hover:text-yellow-400">
+          <Link href="/login" className="text-#e8b44f hover:text-#f3c760">
             Sign In
           </Link>
         </p>

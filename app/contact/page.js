@@ -6,7 +6,7 @@ export default function ContactPage() {
         <h1 className="text-4xl font-black text-white tracking-widest uppercase">
           Contact Us
         </h1>
-        <div className="w-16 h-1 bg-yellow-500 mx-auto mt-3"></div>
+        <div className="w-16 h-1 bg-#e8b44f mx-auto mt-3"></div>
         <p className="text-gray-500 text-xs tracking-widest uppercase mt-3">
           We'd love to hear from you
         </p>
@@ -15,8 +15,8 @@ export default function ContactPage() {
       {/* Contact Cards */}
       <div className="max-w-md mx-auto space-y-6">
         {/* Location */}
-        <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 flex items-start gap-4">
-          <span className="text-yellow-500 text-2xl">📍</span>
+        <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 flex items-start gap-4">
+          <span className="text-#e8b44f text-2xl">📍</span>
           <div>
             <h3 className="text-white font-bold tracking-widest uppercase text-xs mb-2">
               Visit Us
@@ -27,15 +27,15 @@ export default function ContactPage() {
         </div>
 
         {/* Email */}
-        <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 flex items-start gap-4">
-          <span className="text-yellow-500 text-2xl">✉️</span>
+        <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 flex items-start gap-4">
+          <span className="text-#e8b44f text-2xl">✉️</span>
           <div>
             <h3 className="text-white font-bold tracking-widest uppercase text-xs mb-2">
               Email Us
             </h3>
             <a
               href="mailto:worldkecase@gmail.com"
-              className="text-gray-400 text-sm hover:text-yellow-500 transition"
+              className="text-gray-400 text-sm hover:text-#e8b44f transition"
             >
               worldkecase@gmail.com
             </a>
@@ -43,8 +43,8 @@ export default function ContactPage() {
         </div>
 
         {/* WhatsApp */}
-        <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 flex items-start gap-4">
-          <span className="text-yellow-500 text-2xl">💬</span>
+        <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 flex items-start gap-4">
+          <span className="text-#e8b44f text-2xl">💬</span>
           <div>
             <h3 className="text-white font-bold tracking-widest uppercase text-xs mb-2">
               WhatsApp
@@ -53,7 +53,7 @@ export default function ContactPage() {
               href="https://wa.me/254724673449?text=Hi CaseWorldKE, I would like to enquire about your phone cases."
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 text-sm hover:text-yellow-500 transition"
+              className="text-gray-400 text-sm hover:text-#e8b44f transition"
             >
               +254 724 673 449
             </a>
@@ -61,8 +61,8 @@ export default function ContactPage() {
         </div>
 
         {/* Instagram */}
-        <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 flex items-start gap-4">
-          <span className="text-yellow-500 text-2xl">📸</span>
+        <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 flex items-start gap-4">
+          <span className="text-#e8b44f text-2xl">📸</span>
           <div>
             <h3 className="text-white font-bold tracking-widest uppercase text-xs mb-2">
               Instagram
@@ -71,7 +71,7 @@ export default function ContactPage() {
               href="https://instagram.com/case_worldke"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 text-sm hover:text-yellow-500 transition"
+              className="text-gray-400 text-sm hover:text-#e8b44f transition"
             >
               @case_worldke
             </a>
@@ -79,8 +79,8 @@ export default function ContactPage() {
         </div>
 
         {/* TikTok */}
-        <div className="bg-gray-900 border border-yellow-600 rounded-lg p-6 flex items-start gap-4">
-          <span className="text-yellow-500 text-2xl">🎵</span>
+        <div className="bg-gray-900 border border-#d49a35 rounded-lg p-6 flex items-start gap-4">
+          <span className="text-#e8b44f text-2xl">🎵</span>
           <div>
             <h3 className="text-white font-bold tracking-widest uppercase text-xs mb-2">
               TikTok
@@ -89,7 +89,7 @@ export default function ContactPage() {
               href="https://tiktok.com/@case.worldke"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 text-sm hover:text-yellow-500 transition"
+              className="text-gray-400 text-sm hover:text-#e8b44f transition"
             >
               @case.worldke
             </a>
@@ -101,7 +101,7 @@ export default function ContactPage() {
           href="https://wa.me/254724673449?text=Hi CaseWorldKE, I would like to enquire about your phone cases."
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-center bg-yellow-500 text-black font-black tracking-widest uppercase py-4 hover:bg-yellow-400 transition"
+          className="block text-center bg-#e8b44f text-black font-black tracking-widest uppercase py-4 hover:bg-#f3c760 transition"
         >
           💬 Chat With Us Now
         </a>

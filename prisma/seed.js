@@ -12,8 +12,7 @@ async function main() {
         price: 850,
         material: "Hard Plastic",
         color: "Street Print",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/3eb98dfbdbf660475d8f9a00c19beca2",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Street+Wear",
       },
       {
         name: "Cherry",
@@ -21,8 +20,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Cherry Red",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/48e0ac0bd2eee27757a6b186cd6d9eeb",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Cherry",
       },
       {
         name: "Leopard Print",
@@ -30,8 +28,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Leopard",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/e55fbcb57aa735030a6ae9df423d3347",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Leopard+Print",
       },
       {
         name: "Northface",
@@ -39,8 +36,7 @@ async function main() {
         price: 700,
         material: "Hard Plastic",
         color: "Black & White",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/1a5643bc10d3a03b5ef8bf12b20d61a4",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Northface",
       },
       {
         name: "Bow Knot",
@@ -49,8 +45,7 @@ async function main() {
         price: 850,
         material: "Silicone",
         color: "Pink",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/7fbbb09ebbd6bf6cba9e9efb0446f3bf",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Bow+Knot",
       },
       {
         name: "Embossed Roses",
@@ -58,8 +53,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Rose Gold",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/e15c428bdc3eab725204fdb850725332",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Embossed+Roses",
       },
       {
         name: "Polka Dots",
@@ -67,8 +61,7 @@ async function main() {
         price: 1200,
         material: "Silicone",
         color: "Multi Color",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/40d1764ba77efafe2e9374b059c0bed9",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Polka+Dots",
       },
       {
         name: "Hello Kitty",
@@ -76,8 +69,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Pink & White",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/e2d588497846606c35ce5de1a0b5f74d",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Hello+Kitty",
       },
       {
         name: "Lolo Betty",
@@ -85,8 +77,7 @@ async function main() {
         price: 1500,
         material: "Hard Plastic",
         color: "Multi Color",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/2c3ae858d7516be21664bd9254154537",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Lolo+Betty",
       },
       {
         name: "Magsafe Floral Case",
@@ -94,8 +85,7 @@ async function main() {
         price: 1200,
         material: "Magsafe",
         color: "Floral",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/2f36b48f9db7d13cb28a50dbd62ba2bc",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Magsafe+Floral",
       },
       {
         name: "Retro Vibe",
@@ -103,8 +93,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Retro",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/c1ed33429197cbe4e300cb735bd2551c",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Retro+Vibe",
       },
       {
         name: "Kickstand Case",
@@ -112,8 +101,7 @@ async function main() {
         price: 1200,
         material: "Hard Plastic",
         color: "Black",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/c1ed33429197cbe4e300cb735bd2551c",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Kickstand",
       },
       {
         name: "Frosted Magsafe",
@@ -122,7 +110,7 @@ async function main() {
         material: "Frosted Magsafe",
         color: "Frosted Clear",
         image:
-          "https://collection.cloudinary.com/cbssdovm/76a745cd128f23d30fbf1921fd45142c",
+          "https://placehold.co/600x400/000000/E8B44F?text=Frosted+Magsafe",
       },
       {
         name: "Vintage Elegance",
@@ -131,7 +119,7 @@ async function main() {
         material: "Leather",
         color: "Vintage Brown",
         image:
-          "https://collection.cloudinary.com/cbssdovm/60ca1936ac2eb0bb0b80f337752021ff",
+          "https://placehold.co/600x400/000000/E8B44F?text=Vintage+Elegance",
       },
       {
         name: "Leather Luxe",
@@ -139,8 +127,7 @@ async function main() {
         price: 1500,
         material: "Genuine Leather",
         color: "Black",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/898a7b8c5cebcf4581bab299620fd1cf",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Leather+Luxe",
       },
       {
         name: "Blossoms",
@@ -148,8 +135,7 @@ async function main() {
         price: 850,
         material: "Silicone",
         color: "Pink Floral",
-        image:
-          "https://collection.cloudinary.com/cbssdovm/d5f6f475bfbbf78402bd7ab35956e97d",
+        image: "https://placehold.co/600x400/000000/E8B44F?text=Blossoms",
       },
     ],
   });

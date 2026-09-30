@@ -31,7 +31,7 @@ function CasesContent() {
   if (loading) {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center">
-        <p className="text-yellow-500 tracking-widest uppercase text-xs">
+        <p className="text-#e8b44f tracking-widest uppercase text-xs">
           Loading...
         </p>
       </div>
@@ -65,7 +65,7 @@ function CasesContent() {
               <span className="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 uppercase tracking-widest font-bold">
                 New
               </span>
-              <button className="absolute top-2 right-2 bg-gray-800 rounded-full w-8 h-8 flex items-center justify-center text-white hover:text-yellow-500 transition">
+              <button className="absolute top-2 right-2 bg-gray-800 rounded-full w-8 h-8 flex items-center justify-center text-white hover:text-#e8b44f transition">
                 ♡
               </button>
             </div>
@@ -75,14 +75,14 @@ function CasesContent() {
               <p className="text-gray-500 text-xs">
                 {item.material} · {item.color}
               </p>
-              <p className="text-yellow-500 font-bold text-sm mt-2">
+              <p className="text-#e8b44f font-bold text-sm mt-2">
                 KES {item.price.toLocaleString()}
               </p>
               <a
                 href={`https://wa.me/254724673449?text=Hi, I am interested in the ${item.name} for KES ${item.price.toLocaleString()}. Is it available?`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 block text-center bg-yellow-500 text-black text-xs py-2 tracking-widest uppercase font-bold hover:bg-yellow-400 transition"
+                className="mt-3 block text-center bg-#e8b44f text-black text-xs py-2 tracking-widest uppercase font-bold hover:bg-#f3c760 transition"
               >
                 Order Now
               </a>
@@ -106,7 +106,7 @@ export default function CasesPage() {
     <Suspense
       fallback={
         <div className="min-h-screen bg-black flex items-center justify-center">
-          <p className="text-yellow-500 tracking-widest">Loading...</p>
+          <p className="text-#e8b44f tracking-widest">Loading...</p>
         </div>
       }
     >
